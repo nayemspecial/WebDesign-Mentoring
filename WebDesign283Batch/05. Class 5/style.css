@@ -1,0 +1,33 @@
+h1 {
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.blue {
+    color: blue;
+    font-size: 60px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child1, .child2, .child3 {
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.child1 {
+    height: 200px;
+}
+
+.child2 {
+    height: 400px;
+}
+
+.child3 {
+    height: 300px;
+}

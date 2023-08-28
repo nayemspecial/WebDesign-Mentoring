@@ -1,0 +1,22 @@
+.box-model {
+    width: 600px;
+    height: 200px;
+    margin: 10px auto;
+    background: #f5f5f5;
+    padding: 36px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+table, td, tr {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 12px 30px;
+}
+
+tr:nth-child(2n) {
+    background-color: #f1f1f1;
+}

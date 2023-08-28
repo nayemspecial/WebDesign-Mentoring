@@ -1,0 +1,95 @@
+.header-area {
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 8px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    FONT-WEIGHT: 500;
+}
+
+.button button {
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.menu ul li a:hover {
+    background-color: #fff;
+    color: green;
+}
+
+.parent {
+    width: 800px;
+    height: 400px;
+    background-color: #ddd;
+    position: relative;
+}
+
+.child {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    background-color: #f0f0f0;
+    left: 200px;
+    top: 100px;
+}
+
+.slider-area {
+    background: url('image2.jpg');
+    height: 550px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.slider-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.slider-wrapper h2 {
+    font-size: 70px;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.slider-wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

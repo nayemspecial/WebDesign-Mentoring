@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body style="margin-left: 300px;">
+    
+    <script>
+
+        document.write("We are Learning JavaScript." + "<br>");
+        console.log("We are Learning JavaScript.");
+
+    </script>
+
+    <script>
+
+        //Variable Dicliaration
+        let c;
+
+
+        // Value Assignment
+        let a = 20;
+        let b = 15;
+
+
+        // Data Type
+        let name = "Nayemur Rahman";
+        let age = 27;
+        let length = 5.5;
+        let fruits = [1, 2, 3, 4, 5];
+        let person = { name: "Nayem", age: 27, city: "Khulna", division: "Khulna" };
+
+        document.write(name + "<br>");
+        document.write(age + "<br>");
+        document.write(length + "<br>");
+        document.write(fruits + "<br>");
+        document.write(person.name + "<br>");
+
+
+        //Operators
+        let a = 20;
+        let b = 15;
+
+        let add = a + b;
+        let sub = a - b;
+        let pro = a * b;
+        let div = a / b;
+        let mod = a % b;
+        
+        document.write(add + "<br>");
+        document.write(sub + "<br>");
+        document.write(pro + "<br>");
+        document.write(div + "<br>");
+        document.write(mod + "<br>");
+
+
+        //comparison operator
+        let greaterThan = a > b;
+        let lessThan = a < b;
+        document.write(greaterThan + "<br>");
+        document.write(lessThan + "<br>");
+
+
+
+        //Conditional Logic
+        if ( a < b ){
+            document.write("a is less than b <br>");
+        }else {
+            document.write("a is greater than b <br>");
+        }
+
+        // Switch Statement
+        let day = "hhhh";
+
+        switch(day){
+            case "Saturday":
+                document.write("Today is Saturday. <br>");
+                break;
+            case "Sunday":
+                document.write("Today is Sunday. <br>");
+                break;
+            case "Monday":
+                document.write("Today is Monday. <br>");
+                break;
+            case "Twesday":
+                document.write("Today is Twesday. <br>");
+                break;
+            case "Wednesday":
+                document.write("Today is Wednesday. <br>");
+                break;
+            case "Thusday":
+                document.write("Today is Thusday. <br>");
+                break;
+            case "Friday":
+                document.write("Today is Friday. <br>");
+                break;
+            default: 
+                document.write("This is not a day. <br>");
+
+        }
+
+    </script>
+
+    <script>
+
+        //function 
+
+    
+
+        function addition(f,g){
+            return f + g;
+        }
+        let result = addition(400, 500);
+
+
+        document.write(result + "<br>");
+
+    </script>
+
+    <script>
+
+        let fruit = ["Bannana", "Mango"];
+
+        document.write(fruit[1] + "<br>");
+
+    </script>
+
+    <script>
+        //While Loop
+        let i = 1;
+
+        while( i <= 5 ){
+            document.write(i + "<br>");
+            i++;
+        }
+
+
+        //For Loop 
+        for( i = 1 ; i <= 50 ; i++ ){
+            document.write(i + "<br>");
+        }
+    </script>
+
+
+
+
+    
+
+</body>
+</html>

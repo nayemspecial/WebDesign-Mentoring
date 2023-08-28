@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            text-align: center;
+            padding-top: 400px;
+        }
+    </style>
+    <title>jQuery Class</title>
+    <script src="jquery-3.7.min.js"></script>
+</head>
+<body>
+    
+
+    <h1 class="heading">Lorem ipsum dolor sit amet. 2</h1>
+    
+    <!-- <button class="hide">Hide</button>
+    <button class="show">Show</button> -->
+
+    <button>Toggle</button>
+
+    <script>
+        $(document).ready( function(){
+            $("button").click( function(){
+                $(".heading").slideUp();
+            } );
+        } );
+    </script>
+
+    
+</body>
+</html>
