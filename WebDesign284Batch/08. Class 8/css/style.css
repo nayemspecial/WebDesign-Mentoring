@@ -1,0 +1,164 @@
+.logo img {
+    width: 60px;
+}
+
+.header-area {
+    background-color: #f3f3f3;
+    height: 70px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+.header-button button {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 20px;
+}
+
+
+.slider-area {
+    background: url('../images/image.jpg');
+}
+
+
+.header-area {
+    height: 600p;
+}
+
+.slider-area {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.slider-wrapper {
+    padding-top: 140px;
+    text-align: center;
+}
+
+.slider-wrapper h2 {
+    font-size: 65px;
+    color: #f4f4f4;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.slider-wrapper p {
+    font-size: 20px;
+    color: #fff;
+    font-family: arial;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+}
+
+
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.left {
+    width: 45%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.right {
+    width: 45%;
+}
+
+.right h2 {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: cursive;
+    margin: 0;
+}
+
+.right p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.blog-area {
+    background-color: #f1f1f1;
+    padding: 100px 0;
+}
+
+.section-title {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section-title h2 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.section-title p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.blog-wrapper {
+    display: flex;
+}
+
+.single-blog {
+    width: 23%;
+    margin: 0 2%;
+}
+
+.single-blog img {
+    width: 100%;
+}
+
+.single-blog h2 {
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.single-blog p {
+    text-align: justify;
+}
+
+button.blog-button {
+    padding: 8px 20px;
+    border-radius: 4px;
+}
