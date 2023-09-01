@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Class</title>
+</head>
+<body style="margin-left: 400px;">
+    <script>
+        document.write("JavaScript Class is Started.");
+    </script>
+
+    <script>
+
+        //Variables and Data Types
+        let name = "Nayem";
+        let age = 26;  
+        let isStudent = true;
+        let fruits = ["apple", "banana", "banana"];
+        let person = { name: "Nayem",age: 26};
+
+        document.write(name + "<br>");
+        document.write(age + "<br>");
+        document.write(isStudent + "<br>");
+        document.write(fruits + "<br>");
+        document.write(person + "<br>");
+
+    </script>
+
+    <script>
+        //operator
+        let x = 10;
+        let y = 5;
+
+        let sum = x + y;
+        let sub = x - y;
+        let pdt = x * y;
+        let div = x / y;
+        let qnt = x % y;
+
+        document.write(sum + "<br>");
+        document.write(sub + "<br>");
+        document.write(pdt + "<br>");
+        document.write(div + "<br>");
+        document.write(qnt + "<br>");
+    </script>
+
+    <script>
+        //Conditional Logic
+
+        let num = 26;
+
+        if ( num == 26 ) {
+            document.write("The value of num is correct!" + "<br>");
+        } else {
+            document.write("The value of num is not correct!" + "<br>");
+        }
+    </script>
+
+    <script>
+        //For Loop
+
+        for ( let i = 1; i <= 5; i++ ) {
+            document.write( i + "<br>");
+        }
+
+        //While Loop
+        let i = 1;
+        while (i <= 5) {
+            document.write( i + "<br>");
+            i++;
+        }
+    </script>
+
+
+    <script>
+        //Function
+
+        function add(a,b){
+            return a+b;
+        }
+        let result = add(100,50);
+
+        document.write(result + "<br>");
+    </script>
+
+    <script>
+        //array
+        let pages = ["Home", "About", "Blog", "Service"];
+        document.write(pages + "<br>");
+    </script>
+
+    <script>
+        //Object
+
+        let man = {
+            name : "Nayemur Rahman",
+            age : 26,
+            city: "Khulna"
+        };
+
+        document.write(man.name);
+    </script>
+</body>
+</html>
