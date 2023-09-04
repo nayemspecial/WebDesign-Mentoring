@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+span
+{
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+
+.child {
+    width: 400px;
+    height: 112px;
+    padding: 30px;
+    background-color: #f2f2f2;
+    margin: 10px;
+}
+
+.parent {
+    display: flex;
+}
