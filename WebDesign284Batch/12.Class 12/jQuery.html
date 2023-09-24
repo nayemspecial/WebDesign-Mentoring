@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Class</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+</head>
+<body>
+    <!--
+    <button class="hide">Hide</button>
+    <button class="show">Show</button>
+    -->
+
+    <div class="slider-area">
+        <div class="container">
+            <div class="slider-wrapper">
+                <img src="images/slider1.jpg" alt="">
+                <img src="images/slider2.jpg" alt="">
+                <img src="images/slider3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <button class="fade">Fade</button>
+    <h1>We are learning jQuery</h1>
+
+    <script>
+        $(".slider-wrapper").slick({
+            dots: true,
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $(".hide").click(function(){
+                $("h1").hide();
+            });
+
+            $(".show").click(function(){
+                $("h1").show();
+            });
+
+            $(".fade").mouseleave(function(){
+                $("h1").fadeToggle();
+            });
+        });
+    </script>
+
+</body>
+</html>
