@@ -1,0 +1,24 @@
+h2 {
+
+}
+
+.heading-style {
+    font-weight: 200;
+    font-size: 100px
+}
+
+#headingbyId {
+    text-transform: uppercase;
+}
+
+.parent {
+    width: 1300px;
+    height: 500px;
+    background-color: #ddd;
+}
+
+.child {
+    width: 200px;
+    height: 100px;
+    background-color: #000;
+}
