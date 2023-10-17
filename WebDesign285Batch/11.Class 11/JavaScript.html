@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavScript</title>
+</head>
+<body style="margin-left: 300px;">
+    
+    <script>
+        /*===============================
+        1. Output system
+        2. Variable, Constant
+        3. Data Types ( Integer, Boolean, String, Array, Object)
+        4. Operator 
+        5. Conditional Login
+        6. Loop (While Loop, For Loop)
+        7. Function, Parameter, Argument
+        ================================*/ 
+        // Output 
+        document.write(2023 + "<br>");
+        document.write("We are going to learn JavaScript.<br>");
+    </script>
+
+    <script>
+        let name = "Nayemur Rahman";
+        let age = 27;
+        let isStudent = true;
+        let pages = ["Home", "Blog", "About", " Contact", "Service"];
+        let product = { name: "Mobile", price: 200, brand: "OnePlus" };
+
+        document.write(name + "<br>");
+        document.write(age + "<br>");
+        document.write(isStudent + "<br>");
+        document.write(pages + "<br>");
+        document.write(product.price + "<br>");
+    </script>
+
+    <script>
+        // operator
+        let a = 10;
+        let b = 5;
+
+        let sum = a + b;
+        let dif = a - b;
+        let pdt = a * b;
+        let div = a / b;
+        let qnt = a % b;
+
+        document.write(sum + "<br>");
+        document.write(dif + "<br>");
+        document.write(pdt + "<br>");
+        document.write(div + "<br>");
+        document.write(qnt + "<br>");
+    </script>
+
+    <script>
+        let i = 1;
+        
+        while ( i <= 5 ) {
+            document.write(i + "<br>");
+            i++;
+        }
+    </script>
+
+    <script>
+        
+        for (let i = 1 ; i <= 5 ; i++) {
+        document.write(i + "<br>");
+        }
+
+    </script>
+
+    <script>
+
+    //Function
+
+    let result;
+    function addFunction(x, y) {
+        result = x + y;
+        document.write(result);
+    }
+    addFunction( 500, 400)
+
+    </script>
+
+    <script>
+
+        let n = 10;
+        if ( n < 100 ) {
+            document.write("Yes");
+        } else {
+            document.write("No");
+        }
+
+    </script>
+
+
+
+
+</body>
+</html>
