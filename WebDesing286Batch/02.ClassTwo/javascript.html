@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <script>
+
+function phoneNumber(targetNumber) {
+  while (true) {
+    let phoneNumber = Math.floor(100000 + Math.random() * 900000); // Generate a random 6-digit number.
+
+    // Check if the generated number matches the target number.
+    if (phoneNumber === targetNumber) {
+      console.log('Found the target six-digit phone number: ' + phoneNumber);
+      break;
+    }
+  }
+}
+phoneNumber(935835);
+
+
+  </script>
+</body>
+</html>
