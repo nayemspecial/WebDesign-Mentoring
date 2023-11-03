@@ -1,0 +1,16 @@
+h1 {
+    color:blue;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+div {
+    background-color: #ddd;
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+}
