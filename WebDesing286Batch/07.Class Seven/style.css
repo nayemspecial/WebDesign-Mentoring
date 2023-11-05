@@ -1,0 +1,103 @@
+.logo img {
+    width: 80px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-area {
+    background-color: #f3f3f3;
+    height: 90px;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.button button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.slider-area {
+    background: url('images/slider-bg.jpg');
+}
+
+.slider-area {
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slider-wrapper {}
+
+.slider-area {height: 650px;background-repeat: no-repeat;background-size: cover;background-position: center;}
+
+.slider-wrapper {
+    padding: 150px;
+    text-align: center;
+}
+
+.slider-wrapper h1 {
+    font-size: 75px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.slider-wrapper p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .7px;
+}
+
+.slider-btn button {
+    padding: 10px 30px;
+    font-weight: 500;
+    background-color: #583232;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 19px;
+    border: 2px solid #9b9292;
+}
+
+table, td, th {
+    border: 2px solid #333;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+td, th {
+    padding: 10px 20px;
+}
+
+.nov {
+    font-size: 40px;
+    font-weight: 500;
+}
