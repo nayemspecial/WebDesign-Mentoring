@@ -1,0 +1,46 @@
+* {
+    text-decoration: none;
+    color: #333;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #0f0f47;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+}
+
+p {
+    color: #09092a;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#service {
+    background-color: #f3f3f3;
+}
+
+#blogs {
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+#course {
+    background-color: #ddd;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ddd;
+    padding: 100px 0;
+}
+
+.child {
+    width: 380px;
+    padding: 20px;
+    border: 1px solid #333;
+    text-align: justify;
+    border-radius: 10px;
+}
