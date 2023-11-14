@@ -1,0 +1,30 @@
+h1 {
+    margin: 63px 67px 40px 83px;
+    padding: 30px;
+    border: 2px solid #333;
+    float: left;
+    width: 200px;
+    border-radius: 62px 10px 30px 20px;
+}
+
+span {
+    margin: 20px;
+    border: 2px solid;
+    padding: 30px;
+    display: inline-block;
+}
+
+p {
+    float: right;
+    width: 400px;
+}
+
+table, td {
+    border: 2px solid #333;
+    border-collapse: collapse;
+    padding: 10px 30px;
+}
+
+tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
