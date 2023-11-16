@@ -1,0 +1,171 @@
+.slider-area {
+    background: url('images/slider1.jpg');
+}
+
+
+.slider-area {
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slider-wrapper {
+    padding: 80px 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.slider-wrapper h1 {
+    font-size: 86px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.slider-wrapper p {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 40px;
+
+}
+
+button.slider-btn {
+    padding: 10px 20px;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+.blog-area, .service-area {
+    padding: 100px 0;
+}
+
+.section-title {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section-title h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.section-title p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.blog-wrapper, .service-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-wrapper {
+    flex-wrap: wrap;
+}
+
+.single-blog, .single-service {
+    width: 23%;
+}
+
+.single-service {
+    padding: 15px 0;
+}
+
+.single-blog img, .single-service img {
+    width: 100%;
+    border: 1px solid #333;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.single-blog h2, .single-service h2 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.single-blog p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+button.blog-btn {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 6px 27px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 45%;
+}
+
+.right {
+    width: 45%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.about-area {
+    padding: 100px 0;
+    background-color: #f2f2f2;
+}
+
+.right h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.right p {
+    text-align: justify;
+    line-height: 26px;
+}
+
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer-area {
+    background-color: #d78484;
+    padding: 50px 0;
+}
+
+.copyright-area h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.copyright-area {
+    background-color: #457245;
+    padding: 10px 0;
+}
